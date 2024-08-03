@@ -57,7 +57,8 @@ body {
     padding-left: 290px;
     padding-right: 290px;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
+    font-size: 16px;
 }
 
 a:link {
@@ -124,20 +125,39 @@ h1 {
 }
 
 h2 {
-    font-family: 'More Sugar';
+    font-family: 'More Sugar', sans-serif;
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 
 .treats {
     display: flex;
     justify-content: center;
-    align-content: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    color: #fff3f4;
+}
+
+.treat {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.treat img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 h5 {
-    font-family: 'More Sugar';
-    color: white;
+    font-family: 'More Sugar', sans-serif;
+    color: #fff3f4;
+    font-size: 25px;
+    margin: 10px 0;
 }
 
 /* LOCATION AND HOURS */
@@ -154,3 +174,40 @@ h3 {
     margin: auto;
 }
 
+pre{
+    font-family: 'Cloud Loop';
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-around; /* Evenly space out the items */
+    align-items: center; /* Center items vertically */
+    background-color: #f6c0c6; /* Add background color */
+    color: #fff3f4; /* Light text color */
+    padding: 20px 0; /* Padding on top and bottom */
+}
+
+.footer-item {
+    text-align: center; /* Center text in each footer item */
+    flex: 1; /* Each item takes equal space */
+    margin: 0 10px; /* Margins for spacing */
+}
+
+.footer-item h3, .footer-item h5 {
+    font-family: 'More Sugar', sans-serif;
+    font-size: 25px; /* Adjust font size */
+    margin-bottom: 10px;
+}
+
+.footer-item p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-item img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
