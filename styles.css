@@ -234,6 +234,7 @@ pre{
 }
 
 /* MEDIA RESPONSIVE */
+
 @media (max-width: 768px) {
     .navbar-list {
         flex-direction: column;
