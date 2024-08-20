@@ -82,7 +82,7 @@ a:active {
 /* BODY */
 
 .main-body {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -132,7 +132,6 @@ h1 {
     display: block;
     width: 100%;
     height: 20px;
-    background: url('./images/squiggle.svg') no-repeat center;
     background-size: 100% 20px;
 }
 
@@ -232,4 +231,101 @@ pre{
     width: 30px;
     height: 30px;
     margin: 0 5px;
+}
+
+/* MEDIA RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar-list {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-list li {
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .main-body {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left {
+        margin-top: 20px;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+    .our-treats h1 {
+        font-size: 30px;
+    }
+
+    .treat {
+        width: 150px;
+    }
+
+    .location-and-hours {
+        flex-direction: column;
+    }
+
+    .location-and-hours div {
+        margin: 10px 0;
+    }
+
+    .location-and-hours iframe {
+        height: 250px;
+    }
+
+    .footer-item h3, .footer-item h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .main-body-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .treat {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-item {
+        margin: 10px 0;
+    }
+
+    .navbar-list {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
 }
