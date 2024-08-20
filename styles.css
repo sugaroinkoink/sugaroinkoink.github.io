@@ -184,8 +184,7 @@ h5 {
 /* LOCATION AND HOURS */
 
 .location-and-hours {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 h3 {
@@ -197,6 +196,20 @@ h3 {
 
 pre{
     font-family: 'Cloud Loop';
+}
+
+.location-and-hours-item {
+    justify-content: space-evenly;
+}
+
+.location-and-hours-left {
+    margin-left: 430px; 
+    margin-top: 50px;
+}
+
+.location-and-hours-right {
+    margin-left: 180px;
+    margin-top: 25px;
 }
 
 /* FOOTER */
@@ -283,14 +296,19 @@ pre{
 
     .location-and-hours {
         flex-direction: column;
+        text-align: center;
     }
 
     .location-and-hours div {
-        margin: 10px 0;
+        margin: 20px;
     }
 
     .location-and-hours iframe {
-        height: 250px;
+        width: 90%;
+    }
+    
+    .location-and-hours-left {
+        margin-left: 20px;
     }
 
     .footer-item h3, .footer-item h5 {
