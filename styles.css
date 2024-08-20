@@ -249,6 +249,10 @@ pre{
 /* MEDIA RESPONSIVE */
 
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 50px;
+    }
     .navbar-list {
         flex-direction: column;
         padding-left: 0;
@@ -304,7 +308,7 @@ pre{
     }
 
     .location-and-hours iframe {
-        width: 90%;
+        width: 95%;
     }
     
     .location-and-hours-left {
