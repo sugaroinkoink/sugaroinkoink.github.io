@@ -115,6 +115,10 @@ h1 {
     color: white; 
 }
 
+.main-body-img {
+    width: 450px;
+}
+
 /* OUR TREATS */
 
 .our-treats {
@@ -253,6 +257,10 @@ pre{
     h1 {
         font-size: 50px;
     }
+
+    .navbar {
+        margin-top: 0;
+    }
     .navbar-list {
         flex-direction: column;
         padding-left: 0;
@@ -264,7 +272,7 @@ pre{
     }
 
     .logo {
-        width: 120px;
+        width: 250px;
     }
 
     .main-body {
@@ -272,6 +280,10 @@ pre{
         align-items: center;
         text-align: center;
         margin: 20px;
+    }
+
+    .main-body img {
+        width: 70%;
     }
 
     .left {
