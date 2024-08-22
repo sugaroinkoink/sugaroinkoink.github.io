@@ -252,6 +252,45 @@ pre{
 
 /* MEDIA RESPONSIVE */
 
+@media (max-width: 1024px) {
+
+    .navbar-list {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .main-body-img {
+        width: 100%;
+    }
+
+    .location-and-hours {
+        margin: 0;
+    }
+
+    .location-and-hours-left {
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .location-and-hours-right {
+        margin-left: 100px;
+    }
+
+    iframe {
+        width: 500px;
+        margin-right: 20px;
+    }
+    
+
+}
+
 @media (max-width: 768px) {
 
     h1 {
